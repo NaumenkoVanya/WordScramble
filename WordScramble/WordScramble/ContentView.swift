@@ -46,6 +46,12 @@ struct ContentView: View {
             } message: {
                 Text(errorMessage)
             }
+            
+            Button("Start new game") {
+                startGame()
+            }
+            .buttonStyle(.bordered)
+            .tint(.black)
         }
     }
 
