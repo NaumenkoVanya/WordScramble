@@ -23,6 +23,9 @@ struct ContentView: View {
         NavigationStack {
             List {
                 Section {
+                    Text("\(usedWords.count) victory points")
+                }
+                Section {
                     TextField("Enter your word", text: $newWord)
                         .textInputAutocapitalization(.never)
                 }
@@ -46,13 +49,13 @@ struct ContentView: View {
             } message: {
                 Text(errorMessage)
             }
-            
-            Button("Start new game") {
-                startGame()
-            }
-            .buttonStyle(.bordered)
-            .tint(.black)
+   
         }
+        Button("Start new game") {
+            startGame()
+        }
+        .buttonStyle(.bordered)
+        .tint(.black)
     }
 
     // MARK: Проверка:  использовалось ли слово ранее или нет.
