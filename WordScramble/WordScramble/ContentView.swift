@@ -34,6 +34,9 @@ struct ContentView: View {
                         }
                     }
                 }
+                Image("Снимок экрана 2024-02-17 в 00.03.21")
+                    .resizable()
+                    .scaledToFill()
             }
             .navigationTitle(rootWord)
             .onSubmit(addNewWord)
