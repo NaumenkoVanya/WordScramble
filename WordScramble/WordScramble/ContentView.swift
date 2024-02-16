@@ -12,6 +12,12 @@ struct ContentView: View {
     @State private var rootWord = ""
     @State private var newWord = ""
 
+    // MARK: Управление оповещениями
+
+    @State private var errorTittle = ""
+    @State private var errorMessage = ""
+    @State private var showingError = false
+
 //    let peopel = ["Ivan", "Vova", "Sasha", "Zheny", "Maksim"]
     var body: some View {
         NavigationStack {
@@ -26,24 +32,78 @@ struct ContentView: View {
                             Image(systemName: "\(word.count).circle")
                             Text(word)
                         }
-                        
                     }
                 }
             }
             .navigationTitle(rootWord)
             .onSubmit(addNewWord)
+            .onAppear(perform: startGame)
+            .alert(errorTittle, isPresented: $showingError) {
+                Button("OK") {}
+            } message: {
+                Text(errorMessage)
+            }
         }
+    }
+
+    // MARK: Проверка:  использовалось ли слово ранее или нет.
+
+    func isOroginal(word: String) -> Bool {
+        !usedWords.contains(word)
+    }
+
+    // MARK: На реальность существования слова
+
+    func iaPossibole(word: String) -> Bool {
+        var tempWord = rootWord
+
+        for letter in word {
+            if let pos = tempWord.firstIndex(of: letter) {
+                tempWord.remove(at: pos)
+            } else {
+                return false
+            }
+        }
+        return true
+    }
+
+    // MARK: Проверка на ошибки в слове
+
+    func isReal(word: String) -> Bool {
+        let checker = UITextChecker()
+        let range = NSRange(location: 0, length: word.utf16.count)
+        let misspelledRange = checker.rangeOfMisspelledWord(in: word, range: range, startingAt: 0, wrap: false, language: "en")
+
+        return misspelledRange.location == NSNotFound
+    }
+
+    // MARK: Устанавливает заголовок и меняет логическое значение
+
+    func wordErroe(tittle: String, message: String) {
+        errorTittle = tittle
+        errorMessage = message
+        showingError = true
     }
 
     func addNewWord() {
         let answer = newWord.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
-        guard answer.count > 0 else {
-            return
-        }
+        guard answer.count > 0 else { return }
+        
         withAnimation {
             usedWords.insert(answer, at: 0)
         }
         newWord = ""
+    }
+
+    func startGame() {
+        if let startWordsURL = Bundle.main.url(forResource: "start", withExtension: "txt") {
+            if let startWords = try? String(contentsOf: startWordsURL) {
+                let allWords = startWords.components(separatedBy: "\n")
+                rootWord = allWords.randomElement() ?? "silkword"
+                return
+            }
+        }
+        fatalError("Could not load start.txt from bundle.")
     }
 }
 
