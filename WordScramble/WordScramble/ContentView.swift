@@ -24,6 +24,7 @@ struct ContentView: View {
             List {
                 Section("victory points") {
                     Text("\(usedWords.count)")
+                        .foregroundStyle(.green)
                 }
                 Section {
                     TextField("Enter your word", text: $newWord)
@@ -52,6 +53,7 @@ struct ContentView: View {
    
         }
         Button("Start new game") {
+            usedWords.removeAll()
             startGame()
         }
         .buttonStyle(.bordered)
