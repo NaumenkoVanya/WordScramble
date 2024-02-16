@@ -96,7 +96,10 @@ struct ContentView: View {
 
     func addNewWord() {
         let answer = newWord.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
-        guard answer.count > 0 else { return }
+        guard answer.count > 3 else {
+            wordErroe(tittle: "Word is not corect", message: "Need more letters ")
+            return
+        }
         
         guard isOroginal(word: answer) else {
             wordErroe(tittle: "Word used already", message: "De more priginal")
