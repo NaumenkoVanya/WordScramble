@@ -22,8 +22,8 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List {
-                Section {
-                    Text("\(usedWords.count) victory points")
+                Section("victory points") {
+                    Text("\(usedWords.count)")
                 }
                 Section {
                     TextField("Enter your word", text: $newWord)
