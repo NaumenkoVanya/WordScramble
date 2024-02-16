@@ -54,7 +54,7 @@ struct ContentView: View {
 
     // MARK: На реальность существования слова
 
-    func iaPossibole(word: String) -> Bool {
+    func isPossibole(word: String) -> Bool {
         var tempWord = rootWord
 
         for letter in word {
@@ -88,6 +88,21 @@ struct ContentView: View {
     func addNewWord() {
         let answer = newWord.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
         guard answer.count > 0 else { return }
+        
+        guard isOroginal(word: answer) else {
+            wordErroe(tittle: "Word used already", message: "De more priginal")
+            return
+        }
+        
+        guard isPossibole(word: answer) else {
+            wordErroe(tittle: "Word not possible", message: "You can not spell that word form \(rootWord) !")
+            return
+        }
+        
+        guard isReal(word: answer) else {
+            wordErroe(tittle: "Word not recognized", message: "You can't just make them up, you know!")
+            return
+        }
         
         withAnimation {
             usedWords.insert(answer, at: 0)
