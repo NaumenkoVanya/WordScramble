@@ -16,8 +16,8 @@ ____
 
 ## Application ScreenShots
 \
-<img width="338" alt="Снимок экрана 2024-02-18 в 11 43 06" src="https://github.com/NaumenkoVanya/WordScramble/assets/95250432/3e66a06d-862e-4025-b49e-9bbeb4caa417">
-<img width="336" alt="Снимок экрана 2024-02-18 в 11 43 28" src="https://github.com/NaumenkoVanya/WordScramble/assets/95250432/38e7af0c-8f81-4ec5-972a-9db5912712ef">
-<img width="333" alt="Снимок экрана 2024-02-18 в 11 43 55" src="https://github.com/NaumenkoVanya/WordScramble/assets/95250432/514b5688-0472-455a-b0b5-7e7bcb00ede3">
-<img width="336" alt="Снимок экрана 2024-02-18 в 11 44 13" src="https://github.com/NaumenkoVanya/WordScramble/assets/95250432/93a43efc-b4a1-4f55-bfac-54b93b943ac3">
-<img width="335" alt="Снимок экрана 2024-02-18 в 11 44 35" src="https://github.com/NaumenkoVanya/WordScramble/assets/95250432/4372b446-9440-4261-a9cb-4210f67dc78a">
+![Simulator Screenshot - iPhone 15 Pro - 2024-02-18 at 12 09 01](https://github.com/NaumenkoVanya/WordScramble/assets/95250432/dac62990-f3c7-4df4-b0c8-1fdc904f67e4)
+![Simulator Screenshot - iPhone 15 Pro - 2024-02-18 at 12 08 42](https://github.com/NaumenkoVanya/WordScramble/assets/95250432/761f02a9-c334-47dd-ae15-6e774d630c9d)
+![Simulator Screenshot - iPhone 15 Pro - 2024-02-18 at 12 08 19](https://github.com/NaumenkoVanya/WordScramble/assets/95250432/38f89315-ea85-48ff-808f-19b7b3094025)
+![Simulator Screenshot - iPhone 15 Pro - 2024-02-18 at 12 09 48](https://github.com/NaumenkoVanya/WordScramble/assets/95250432/2fe7d8cd-e6c3-45a6-8f06-afa5646de0af)
+![Simulator Screenshot - iPhone 15 Pro - 2024-02-18 at 12 11 10](https://github.com/NaumenkoVanya/WordScramble/assets/95250432/294149a4-8cef-4e57-8ce2-e2234b8eb327)
