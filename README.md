@@ -15,7 +15,7 @@ ____
 + SwiftUI
 
 ## Application ScreenShots
-\
+
 <img width="338" alt="Снимок экрана 2024-02-18 в 11 43 06" src="https://github.com/NaumenkoVanya/WordScramble/assets/95250432/dac62990-f3c7-4df4-b0c8-1fdc904f67e4">
 <img width="338" alt="Снимок экрана 2024-02-18 в 11 43 06" src="https://github.com/NaumenkoVanya/WordScramble/assets/95250432/761f02a9-c334-47dd-ae15-6e774d630c9d">
 <img width="338" alt="Снимок экрана 2024-02-18 в 11 43 06" src="https://github.com/NaumenkoVanya/WordScramble/assets/95250432/38f89315-ea85-48ff-808f-19b7b3094025">
