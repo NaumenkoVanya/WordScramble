@@ -14,9 +14,8 @@ ____
 
 ## Application ScreenShots
 \
-<img width="200" alt="IMAGE 2023-04-13 15:47:28" src="https://user-images.githubusercontent.com/95250432/231764699-65aa0a6f-8ab0-4c24-8c1e-5fbbf59866ac.jpg"> 
-<img width="200" alt="IMAGE 2023-04-13 15:47:28" src="https://user-images.githubusercontent.com/95250432/231764693-9f5bba0d-1b63-4374-abd4-772c773ace0d.jpg"> 
-<img width="200" alt="IMAGE 2023-04-13 15:47:31" src="https://user-images.githubusercontent.com/95250432/231764706-b311af3b-a226-413d-9aad-68edecccab68.jpg">
-<img width="200" alt="IMAGE 2023-04-13 15:47:29" src="https://user-images.githubusercontent.com/95250432/231770409-12da4688-f2f3-4b96-8b45-f58b121556ae.jpg">
-<img width="200" alt="IMAGE 2023-04-13 15:47:34" src="https://user-images.githubusercontent.com/95250432/231764712-1716b14c-c4a6-4449-afd1-1b65d723c45e.jpg">
-<img width="200" alt="IMAGE 2023-04-13 15:47:33" src="https://user-images.githubusercontent.com/95250432/231764708-b2bac742-b021-4f16-8c84-228d468515fd.jpg">
+<img width="338" alt="Снимок экрана 2024-02-18 в 11 43 06" src="https://github.com/NaumenkoVanya/WordScramble/assets/95250432/3e66a06d-862e-4025-b49e-9bbeb4caa417">
+<img width="336" alt="Снимок экрана 2024-02-18 в 11 43 28" src="https://github.com/NaumenkoVanya/WordScramble/assets/95250432/38e7af0c-8f81-4ec5-972a-9db5912712ef">
+<img width="333" alt="Снимок экрана 2024-02-18 в 11 43 55" src="https://github.com/NaumenkoVanya/WordScramble/assets/95250432/514b5688-0472-455a-b0b5-7e7bcb00ede3">
+<img width="336" alt="Снимок экрана 2024-02-18 в 11 44 13" src="https://github.com/NaumenkoVanya/WordScramble/assets/95250432/93a43efc-b4a1-4f55-bfac-54b93b943ac3">
+<img width="335" alt="Снимок экрана 2024-02-18 в 11 44 35" src="https://github.com/NaumenkoVanya/WordScramble/assets/95250432/4372b446-9440-4261-a9cb-4210f67dc78a">
