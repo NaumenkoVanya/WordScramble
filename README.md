@@ -6,7 +6,9 @@
 
 # Actual Features
 ____
-+ SwiftUI
++ This is a game of composing words from the proposed option.
++ Keeps a count of words and the number of letters.
++ Built-in lock with criteria for the word.
 
 # App Arquitecture
 ____
